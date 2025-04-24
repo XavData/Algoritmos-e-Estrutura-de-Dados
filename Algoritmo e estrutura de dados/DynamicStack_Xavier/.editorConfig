@@ -1,0 +1,15 @@
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Arquivos C e cabeçalhos
+[*.{c,h}]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+# Makefiles usam tabs
+[Makefile]
+indent_style = tab
