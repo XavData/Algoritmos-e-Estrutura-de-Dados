@@ -1,9 +1,7 @@
-// no .c a gente vai dizer o que as funções fazem, detalhar elas
+//Neste arquivo apenas terá funções
 #include "DoublyLinkedList.h"
 #include <stdio.h>
 #include <stdlib.h>
-
-// Criando uma lista nova
 
 DoublyLinkedList* createList(){
     DoublyLinkedList *list = (DoublyLinkedList*)malloc(sizeof(DoublyLinkedList));
@@ -12,10 +10,10 @@ DoublyLinkedList* createList(){
         exit(EXIT_FAILURE);
     }
 
-    list->head = NULL; // como lista é um ponteiro a gente usa "->" para acessar os membros dentro dele
+    list->head = NULL; 
     list->tail = NULL;
     list->size = 0;
-    list->memoryUsed = sizeof(DoublyLinkedList); // Memória da estrutura da lista
+    list->memoryUsed = sizeof(DoublyLinkedList); 
     return list;
 }
 

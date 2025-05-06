@@ -1,10 +1,10 @@
-// Dentro da .h a gente define as estruturas e declara as funções
-#ifndef DOUBLYLINKEDLIST_H // Se não foi criado
-#define DOUBLYLINKEDLIST_H // Crie
+// Aqui declaramos as estruturas e declaramos as funções
+#ifndef DOUBLYLINKEDLIST_H 
+#define DOUBLYLINKEDLIST_H 
 
-#include <stdio.h> // funções pra entrada e saída de dados
-#include <stdlib.h> // alocação de memória
-#include <string.h> // manipulação de string
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <string.h> 
 
 // Estrutura do Nó
 typedef struct Node{
